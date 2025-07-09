@@ -43,7 +43,6 @@ hr{
     font-size: 35px;
     font-weight: bold;
     color: #181818;
-    text-align: center;
 }
 
 /* header */
@@ -178,4 +177,27 @@ hr{
 .experience-description{
     font-size: 12px;
     width: 100%;
+}
+
+/* footer style */
+
+footer{
+    display: flex;
+    padding: 130px 200px;
+    justify-content: space-between;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"],textarea{
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 18px;
+    border: none;
 }
